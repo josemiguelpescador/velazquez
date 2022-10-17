@@ -1,13 +1,14 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-p{
+header{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     display: block;
     margin: 50px;
     top: 100px;
     text-align: center;
+    
     
     
  }
@@ -25,7 +26,7 @@ button{
     border-radius: 25px;
     border: 0%;
     border: 0;
-    font-size: 50px;
+    font-size: 40px;
     
 }
 
@@ -41,7 +42,7 @@ button:hover{
     margin-right: 7.5%;
     margin-bottom:20%;
     overflow: auto;
-    filter: grayscale(1);
+    
     height: 188px;
     width: 150px;
 
@@ -51,28 +52,29 @@ button:hover{
     margin: 0px;
     padding: 0px;
     width: 200px;
-}
-#barra:hover{
-    filter: grayscale(0);
-}
-
-#menu:hover {
-    filter: grayscale(0);
+   
 }
 
 #menu ul li{
     height: 188px;
     width: 150px;
-}
-#barra{
-    position: relative;
-    width: 200px;
     
 }
+
+
+#barra{
+    position: relative;
+    width: 220px;
+    height: 500px;   
+    text-align: center; 
+    
+}
+
+
 #imagen{
     position: relative;
     left: 300px;
-    top: -200px;
+    top: -600px;
     width: 50px;
     height: 50px;
 
@@ -81,6 +83,14 @@ button:hover{
 #texto{
     position: relative;
     left: 900px;
-    top:-200px;
+    top:-500px;
+    text-align: center;
 }
 
+#mini{
+    filter: grayscale(1);
+}
+
+#mini:hover{
+    filter: grayscale(0);
+}
